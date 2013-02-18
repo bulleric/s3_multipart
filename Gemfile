@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 group :development do
-  gem 'activerecord'
-  gem 'sqlite3'
+  # gem 'activerecord'
+  # gem 'sqlite3'
+  gem 'mongoid'
   gem 'actionpack' # action_controller, action_view
   gem 'sprockets'
   gem "rails"
-  gem "sqlite3"
-  
+
   # tests
   gem 'combustion', '~> 0.3.3'
   gem 'rspec'
